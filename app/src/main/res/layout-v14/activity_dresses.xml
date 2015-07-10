@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.win8.panache_prototype.dresses">
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:id="@+id/ibsummer"
+            android:background="@drawable/dress1"
+            android:layout_marginTop="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="5dp"
+            android:onClick="dress1"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+        <Button
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Mango"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/buttonshape" />
+        <Button
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="Rs 3,490"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonshape" />
+        <Button
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Mango"
+            android:background="@drawable/buttonshape" />
+        <Button
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Create\nLook"
+            android:background="@drawable/createlookbutton" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:id="@+id/ibdress2"
+                android:background="@drawable/dress2"
+                android:layout_marginTop="41dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:onClick="summeronclick"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+            <Button
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Mango"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/buttonshape" />
+            <Button
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:text="Rs 3,490"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonshape" />
+            <Button
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Mango"
+                android:background="@drawable/buttonshape" />
+            <Button
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Create\nLook"
+                android:background="@drawable/createlookbutton" />
+
+        </LinearLayout>
+ </LinearLayout>
+</ScrollView>
